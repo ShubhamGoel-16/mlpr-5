@@ -1,0 +1,18 @@
+name: Run Tests
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install numpy pandas scikit-learn opencv-python wandb jupyter
+      - name: Run Jupyter Notebook
+        run: |
+          jupyter nbconvert --to notebook --execute "Lab-5.ipynb" --output "Lab5_Output.ipynb"
+
