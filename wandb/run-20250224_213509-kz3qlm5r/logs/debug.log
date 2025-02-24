@@ -16,3 +16,86 @@ config: {'_wandb': {}}
 2025-02-24 21:35:09,176 INFO    MainThread:54716 [wandb_run.py:_label_probe_notebook():1204] probe notebook
 2025-02-24 21:35:09,213 INFO    MainThread:54716 [wandb_init.py:init():896] updated telemetry
 2025-02-24 21:35:09,217 INFO    MainThread:54716 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-02-24 21:35:10,783 INFO    MainThread:54716 [wandb_init.py:init():995] starting run threads in backend
+2025-02-24 21:35:11,246 INFO    MainThread:54716 [wandb_run.py:_console_start():2377] atexit reg
+2025-02-24 21:35:11,247 INFO    MainThread:54716 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-02-24 21:35:11,247 INFO    MainThread:54716 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-02-24 21:35:11,247 INFO    MainThread:54716 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-02-24 21:35:11,254 INFO    MainThread:54716 [wandb_init.py:init():1037] run started, returning control to user process
+2025-02-24 21:35:11,268 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:35:11,268 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:44:56,274 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:01,281 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:01,281 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:05,163 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:05,317 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:05,317 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:16,869 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:16,874 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:16,874 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:16,967 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:16,975 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:16,975 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:17,697 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:17,702 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:17,702 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:17,718 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:17,726 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:17,726 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:17,869 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:17,877 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:17,877 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:19,969 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:19,972 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:19,972 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:45:28,063 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:45:28,854 ERROR   MainThread:54716 [util.py:get_module():249] Error importing optional module plotly.tools
+Traceback (most recent call last):
+  File "c:\Users\Shubham Goel\Desktop\MLPR\Lab-5\venv\Lib\site-packages\wandb\util.py", line 215, in import_module_lazy
+    return sys.modules[name]
+           ~~~~~~~~~~~^^^^^^
+KeyError: 'plotly.tools'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Shubham Goel\Desktop\MLPR\Lab-5\venv\Lib\site-packages\wandb\util.py", line 244, in get_module
+    return import_module_lazy(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shubham Goel\Desktop\MLPR\Lab-5\venv\Lib\site-packages\wandb\util.py", line 217, in import_module_lazy
+    spec = importlib.util.find_spec(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib.util>", line 91, in find_spec
+ModuleNotFoundError: No module named 'plotly'
+2025-02-24 21:45:30,027 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:45:30,027 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:46:25,731 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:46:26,107 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:46:26,107 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:49:53,767 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:49:54,373 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:49:54,374 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:07,514 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:07,573 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:07,573 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:12,383 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:12,732 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:12,732 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:25,257 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:25,285 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:25,291 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:42,247 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:43,215 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:43,215 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:48,785 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:49,105 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:49,105 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:50:52,486 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:50:58,065 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:50:58,066 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:51:03,562 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:51:03,741 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:51:03,741 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-24 21:53:41,489 INFO    MainThread:54716 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-24 21:53:41,873 INFO    MainThread:54716 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 21:53:41,873 INFO    MainThread:54716 [wandb_init.py:_pause_backend():564] pausing backend
