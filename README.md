@@ -28,3 +28,10 @@ results in a highly flexible model that closely follows the training data, leadi
 to noise and prone to overfitting. Conversely, a high K value results in a smoother decision boundary with high bias but low variance, making 
 the model more generalized but potentially underfitting the data. The optimal choice of K balances bias and variance, ensuring the model captures 
 patterns without excessive sensitivity to noise. Cross-validation is often used to determine the best K for minimizing both errors.
+
+![image](https://github.com/user-attachments/assets/7a612bc2-cd45-4b4a-9d59-9184b034d5ca)
+
+![image](https://github.com/user-attachments/assets/bd808998-257f-48be-a43c-b9f4bd6437de)
+
+
+
